@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- ========Navbar===== -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <div>
+          <a class="navbar-brand" href="#">
+            <img
+              src="Logo/logo2.png"
+              alt=""
+              style="padding-left: 20px; max-width: 80px"
+            />
+            <span class="fs-4 text-success fw-semibold">Danamik</span>
+          </a>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="w-75"></div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="Navbar__menu pe-5">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link navbar__itmes active"
+                  aria-current="page"
+                  href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navbar__itmes" href="About.html">About</a>
+              </li>
+
+              <li class="nav-item hoo">
+                <a class="nav-link navbar__itmes" href="Servise.html"
+                  >Servise</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navbar__itmes" href="Contact.html"
+                  >Contact</a
+                >
+              </li>
+              <div class="d-flex ms-5">
+                <a
+                  href="login.html"
+                  class="btn btn-success px-3 py-2 rounded-1"
+                >
+                  Login
+                </a>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- ========Navbar End======== -->
+    <div class="registration__baground pb-3">
+      <div class="container"></div>
+      <div class="row d-flex justify-content-center align-items-center">
+        <div
+          class="col-sm-5 col-md-6 col-lg-5 col-xl-4 py-4 bg-success mt-2 rounded"
+        >
+          <div class="opacity-100">
+            <h3 class="text-center text-white">Registration Now</h3>
+            <div class="mb-3">
+              <label
+                for="exampleFormControlInput1"
+                class="form-label text-white"
+                >Full Name</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Full Name"
+              />
+            </div>
+            <!-- ======= -->
+            <select
+              class="form-select mb-3"
+              aria-label="Default select example "
+            >
+              <option selected>Address</option>
+              <option value="1">Mirpur 1</option>
+              <option value="2">Mirpur 2</option>
+              <option value="3">Mirpur 6</option>
+              <option value="4">Mirpur 10</option>
+              <option value="5">Mirpur 11</option>
+              <option value="6">Mirpur 12</option>
+              <option value="7">Mirpur 14</option>
+              <option value="8">Kajipa</option>
+              <option value="9">Shaora para</option>
+              <option value="10">kollanpur</option>
+            </select>
+            <div class="d-flex justify-content-between mb-2">
+              <div>
+                <select
+                  class="form-select w-100"
+                  aria-label="Default select example"
+                >
+                  <option selected>Block</option>
+                  <option value="1">A</option>
+                  <option value="2">B</option>
+                  <option value="3">C</option>
+                  <option value="4">D</option>
+                  <option value="5">E</option>
+                  <option value="6">F</option>
+                  <option value="7">G</option>
+                  <option value="8">H</option>
+                </select>
+              </div>
+              <div>
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>Road</option>
+                  <option value="1">01</option>
+                  <option value="2">02</option>
+                  <option value="3">03</option>
+                  <option value="4">04</option>
+                  <option value="5">05</option>
+                  <option value="6">06</option>
+                  <option value="7">07</option>
+                  <option value="8">08</option>
+                  <option value="9">09</option>
+                  <option value="10">10</option>
+                </select>
+              </div>
+              <div>
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>House No</option>
+                  <option value="1">01</option>
+                  <option value="2">02</option>
+                  <option value="3">03</option>
+                  <option value="4">04</option>
+                  <option value="5">05</option>
+                  <option value="6">06</option>
+                  <option value="7">07</option>
+                  <option value="8">08</option>
+                  <option value="9">09</option>
+                  <option value="10">10</option>
+                </select>
+              </div>
+            </div>
+            <!-- ======= -->
+            <div class="mb-3">
+              <label
+                for="exampleFormControlInput1"
+                class="form-label text-white"
+                >Phone Number</label
+              >
+              <input
+                type="number"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="+00016 . . . ."
+              />
+            </div>
+            <div class="mb-3">
+              <label
+                for="exampleFormControlInput1"
+                class="form-label text-white"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="name@example.com"
+              />
+            </div>
+            <div>
+              <label for="inputPassword5" class="form-label text-white"
+                >Password</label
+              >
+              <input
+                type="password"
+                id="inputPassword5"
+                class="form-control"
+                aria-describedby="passwordHelpBlock"
+                placeholder="Enter Your Password"
+              />
+            </div>
+            <div class="mt-3">
+              <label for="inputPassword5" class="form-label text-white"
+                >Conforem Password
+              </label>
+              <input
+                type="password"
+                id="inputPassword5"
+                class="form-control"
+                aria-describedby="passwordHelpBlock"
+                placeholder="Enter Your Password"
+              />
+            </div>
+
+            <div class="mt-2">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="flexCheckDefault"
+              />
+              <label class="form-check-label text-white" for="flexCheckDefault">
+                Save Password
+              </label>
+            </div>
+
+            <a href="Registration.html" class="mt-3 w-100 btn bg-white"
+              >Registration</a
+            >
+
+            <div class="login_Regster_Button text-center mt-3">
+              <a href="login.html" class="text-white">Login </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

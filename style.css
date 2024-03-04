@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  list-style: none;
+}
+.login_Regster_Button a:hover {
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: rebeccapurple;
+}
+
+/* ======Navbar Items==== */
+
+/* ======== Loging Bannar======= */
+.login__baground {
+  background-image: url(login_backgorund.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+.registration__baground {
+  background-image: url(login_backgorund.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

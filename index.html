@@ -34,9 +34,19 @@
     </style>
   </head>
   <body>
+    <!-- ====Navbar start====== -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <div>
+          <a class="navbar-brand" href="#">
+            <img
+              src="Logo/logo2.png"
+              alt=""
+              style="padding-left: 20px; max-width: 80px"
+            />
+            <span class="fs-4 text-success fw-semibold">Danamik</span>
+          </a>
+        </div>
         <button
           class="navbar-toggler"
           type="button"
@@ -48,51 +58,91 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
+        <div class="w-75"></div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </li>
+          <div class="Navbar__menu pe-5">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link navbar__itmes active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navbar__itmes" href="About.html">About</a>
+              </li>
+    
+              <li class="nav-item hoo">
+                <a class="nav-link navbar__itmes" href="Servise.html">Servise</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navbar__itmes" href="Contact.html" >Contact</a>
+              </li>
+            <div class="d-flex ms-5">
+              <a href="login.html" class="btn btn-primary px-3 py-2 rounded-1 me-2">Login</a>
+              <a href="Registration.html" class="btn btn-success px-3 py-2 rounded-1">Register</a>
+            </div>
           </ul>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
+          </div>
         </div>
       </div>
     </nav>
+    <!-- ====Navbar End ======== -->
+
+
+
+
+
+    <!-- ============== -->
+    <!-- <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+      Link with href
+    </a>
+ 
+    
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+             
+                  
+                </ul>
+              </li>
+              
+            </li>
+            <li><a href="#">Home 01</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
+          </ul>
+      </div>
+    </div> -->
     <!-- =========Carusel start======== -->
     <div id="carouselExampleDark" class="carousel carousel-dark slide">
       <div class="carousel-indicators">
@@ -168,18 +218,22 @@
     <div>
       <div class="container">
         <div class="row ">
-          <div class="col-sm-12 col-md-6 col-lg-4 mb-3 mb-sm-0">
-            <div class="card mb-4" style="max-width: 25rem">
+          <div class="col-sm-6 mt-3 col-md-4 col-lg-3 mb-3 mb-sm-0">
+            <div class="card" style="max-width: 25rem">
               <img src="card01.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
+                <div class="d-flex justify-content-between">
+                  <button class="btn btn-info text-white fw-semibold">Order Now</button>
+                  <p class="fs-4 text-danger">$20</p>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-sm-12 col-md-6 col-lg-4 mb-3 mb-sm-0">
+          <div class="col-sm-6 mt-3 col-md-4 col-lg-3 mb-3 mb-sm-0">
             <div class="card" style="max-width: 25rem">
               <img src="card02.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
@@ -187,10 +241,15 @@
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
+                <div class="d-flex justify-content-between">
+                  <button class="btn btn-info text-white fw-semibold">Order Now</button>
+                  <p class="fs-4 text-danger">$20</p>
+                </div>
+               
               </div>
             </div>
           </div>
-          <div class="col-sm-12 col-md-6 col-lg-4 mb-3 mb-sm-0">
+          <div class="col-sm-6 mt-3 col-md-4 col-lg-3 mb-3 mb-sm-0">
             <div class="card" style="max-width: 25rem">
               <img src="card03.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
@@ -198,10 +257,14 @@
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
+                <div class="d-flex justify-content-between">
+                  <button class="btn btn-info text-white fw-semibold">Order Now</button>
+                  <p class="fs-4 text-danger">$20</p>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-sm-12 col-md-6 col-lg-4 mb-3 mb-sm-0">
+          <div class="col-sm-6 mt-3 col-md-4 col-lg-3 mb-3 mb-sm-0">
             <div class="card" style="max-width: 25rem">
               <img src="card04.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
@@ -209,10 +272,14 @@
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
+                <div class="d-flex justify-content-between">
+                  <button class="btn btn-info text-white fw-semibold">Order Now</button>
+                  <p class="fs-4 text-danger">$20</p>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-sm-12 col-md-6 col-lg-4 mb-3 mb-sm-0">
+          <div class="col-sm-6 mt-3 col-md-4 col-lg-3 mb-3 mb-sm-0">
             <div class="card" style="max-width: 25rem">
               <img src="card05.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
@@ -220,10 +287,14 @@
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
+                <div class="d-flex justify-content-between">
+                  <button class="btn btn-info text-white fw-semibold">Order Now</button>
+                  <p class="fs-4 text-danger">$20</p>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-sm-12 col-md-6 col-lg-4 mb-3 mb-sm-0">
+          <div class="col-sm-6 mt-3 col-md-4 col-lg-3 mb-3 mb-sm-0">
             <div class="card" style="max-width: 25rem">
               <img src="card06.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
@@ -231,6 +302,101 @@
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
+                <div class="d-flex justify-content-between">
+                  <button class="btn btn-info text-white fw-semibold">Order Now</button>
+                  <p class="fs-4 text-danger">$20</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 mt-3 col-md-4 col-lg-3 mb-3 mb-sm-0">
+            <div class="card" style="max-width: 25rem">
+              <img src="card06.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+
+                <div class="d-flex justify-content-between">
+                  <button class="btn btn-info text-white fw-semibold">Order Now</button>
+                  <p class="fs-4 text-danger">$20</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 mt-3 col-md-4 col-lg-3 mb-3 mb-sm-0">
+            <div class="card" style="max-width: 25rem">
+              <img src="card06.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <div class="d-flex justify-content-between">
+                  <button class="btn btn-info text-white fw-semibold">Order Now</button>
+                  <p class="fs-4 text-danger">$20</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 mt-3 col-md-4 col-lg-3 mb-3 mb-sm-0">
+            <div class="card" style="max-width: 25rem">
+              <img src="card06.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <div class="d-flex justify-content-between">
+                  <button class="btn btn-info text-white fw-semibold">Order Now</button>
+                  <p class="fs-4 text-danger">$20</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 mt-3 col-md-4 col-lg-3 mb-3 mb-sm-0">
+            <div class="card" style="max-width: 25rem">
+              <img src="card06.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <div class="d-flex justify-content-between">
+                  <button class="btn btn-info text-white fw-semibold">Order Now</button>
+                  <p class="fs-4 text-danger">$20</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 mt-3 col-md-4 col-lg-3 mb-3 mb-sm-0">
+            <div class="card" style="max-width: 25rem">
+              <img src="card06.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <div class="d-flex justify-content-between">
+                  <button class="btn btn-info text-white fw-semibold">Order Now</button>
+                  <p class="fs-4 text-danger">$20</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 mt-3 col-md-4 col-lg-3 mb-3 mb-sm-0">
+            <div class="card" style="max-width: 25rem">
+              <img src="card06.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <div class="d-flex justify-content-between">
+                  <button class="btn btn-info text-white fw-semibold">Order Now</button>
+                  <p class="fs-4 text-danger">$20</p>
+                </div>
               </div>
             </div>
           </div>
