@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 a {
   text-decoration: none;
   list-style: none;
@@ -27,4 +28,12 @@ a {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+/* =====Card Hover===== */
+.card {
+  transition: all 0.3s;
+}
+.card:hover {
+  transform: scale(1.15);
 }
